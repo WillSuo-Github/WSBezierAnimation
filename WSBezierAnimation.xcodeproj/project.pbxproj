@@ -13,6 +13,7 @@
 		548372471DFD2669008A7F09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 548372451DFD2669008A7F09 /* Main.storyboard */; };
 		548372491DFD2669008A7F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 548372481DFD2669008A7F09 /* Assets.xcassets */; };
 		5483724C1DFD2669008A7F09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5483724A1DFD2669008A7F09 /* LaunchScreen.storyboard */; };
+		548372551DFD282E008A7F09 /* WSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 548372541DFD282E008A7F09 /* WSButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		548372481DFD2669008A7F09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5483724B1DFD2669008A7F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5483724D1DFD2669008A7F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		548372531DFD282E008A7F09 /* WSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSButton.h; sourceTree = "<group>"; };
+		548372541DFD282E008A7F09 /* WSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				5483724A1DFD2669008A7F09 /* LaunchScreen.storyboard */,
 				5483724D1DFD2669008A7F09 /* Info.plist */,
 				5483723C1DFD2669008A7F09 /* Supporting Files */,
+				548372531DFD282E008A7F09 /* WSButton.h */,
+				548372541DFD282E008A7F09 /* WSButton.m */,
 			);
 			path = WSBezierAnimation;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 				548372441DFD2669008A7F09 /* ViewController.m in Sources */,
 				548372411DFD2669008A7F09 /* AppDelegate.m in Sources */,
 				5483723E1DFD2669008A7F09 /* main.m in Sources */,
+				548372551DFD282E008A7F09 /* WSButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
