@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		545227611DFE9FD200127B6C /* WSNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 545227601DFE9FD200127B6C /* WSNextViewController.m */; };
+		545227641DFEA0FC00127B6C /* WSPresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 545227631DFEA0FC00127B6C /* WSPresentAnimation.m */; };
 		5483723E1DFD2669008A7F09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5483723D1DFD2669008A7F09 /* main.m */; };
 		548372411DFD2669008A7F09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 548372401DFD2669008A7F09 /* AppDelegate.m */; };
 		548372441DFD2669008A7F09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548372431DFD2669008A7F09 /* ViewController.m */; };
@@ -17,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5452275F1DFE9FD200127B6C /* WSNextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSNextViewController.h; sourceTree = "<group>"; };
+		545227601DFE9FD200127B6C /* WSNextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSNextViewController.m; sourceTree = "<group>"; };
+		545227621DFEA0FC00127B6C /* WSPresentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPresentAnimation.h; sourceTree = "<group>"; };
+		545227631DFEA0FC00127B6C /* WSPresentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPresentAnimation.m; sourceTree = "<group>"; };
 		548372391DFD2669008A7F09 /* WSBezierAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSBezierAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5483723D1DFD2669008A7F09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5483723F1DFD2669008A7F09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,6 +51,10 @@
 		548372301DFD2669008A7F09 = {
 			isa = PBXGroup;
 			children = (
+				545227621DFEA0FC00127B6C /* WSPresentAnimation.h */,
+				545227631DFEA0FC00127B6C /* WSPresentAnimation.m */,
+				5452275F1DFE9FD200127B6C /* WSNextViewController.h */,
+				545227601DFE9FD200127B6C /* WSNextViewController.m */,
 				5483723B1DFD2669008A7F09 /* WSBezierAnimation */,
 				5483723A1DFD2669008A7F09 /* Products */,
 			);
@@ -159,6 +169,8 @@
 				548372411DFD2669008A7F09 /* AppDelegate.m in Sources */,
 				5483723E1DFD2669008A7F09 /* main.m in Sources */,
 				548372551DFD282E008A7F09 /* WSButton.m in Sources */,
+				545227641DFEA0FC00127B6C /* WSPresentAnimation.m in Sources */,
+				545227611DFE9FD200127B6C /* WSNextViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +327,7 @@
 				548372521DFD2669008A7F09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

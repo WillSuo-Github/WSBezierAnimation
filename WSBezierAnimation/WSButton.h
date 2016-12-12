@@ -10,4 +10,6 @@
 
 @interface WSButton : UIView
 
+@property (nonatomic, copy) void(^addActionBlock)();
+
 @end

@@ -159,6 +159,15 @@
     basicAni.removedOnCompletion = false;
     basicAni.fillMode = kCAFillModeForwards;
     [_loadingLayer addAnimation:basicAni forKey:@"loadingAni"];
+    
+    [self performSelector:@selector(removeAnimation) withObject:nil afterDelay:3];
+}
+
+- (void)removeAnimation{
+    [self removeSubviews];
+    if (self.addActionBlock) {
+        self.addActionBlock();
+    }
 }
 
 
