@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		545227611DFE9FD200127B6C /* WSNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 545227601DFE9FD200127B6C /* WSNextViewController.m */; };
+		545227611DFE9FD200127B6C /* WSPresentNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 545227601DFE9FD200127B6C /* WSPresentNextViewController.m */; };
 		545227641DFEA0FC00127B6C /* WSPresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 545227631DFEA0FC00127B6C /* WSPresentAnimation.m */; };
 		5483723E1DFD2669008A7F09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5483723D1DFD2669008A7F09 /* main.m */; };
 		548372411DFD2669008A7F09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 548372401DFD2669008A7F09 /* AppDelegate.m */; };
@@ -16,13 +16,14 @@
 		548372491DFD2669008A7F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 548372481DFD2669008A7F09 /* Assets.xcassets */; };
 		5483724C1DFD2669008A7F09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5483724A1DFD2669008A7F09 /* LaunchScreen.storyboard */; };
 		548372551DFD282E008A7F09 /* WSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 548372541DFD282E008A7F09 /* WSButton.m */; };
+		54A7D0E41EADD9770036BCD2 /* WSPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A7D0E31EADD9770036BCD2 /* WSPresentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5452275F1DFE9FD200127B6C /* WSNextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSNextViewController.h; sourceTree = "<group>"; };
-		545227601DFE9FD200127B6C /* WSNextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSNextViewController.m; sourceTree = "<group>"; };
-		545227621DFEA0FC00127B6C /* WSPresentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPresentAnimation.h; sourceTree = "<group>"; };
-		545227631DFEA0FC00127B6C /* WSPresentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPresentAnimation.m; sourceTree = "<group>"; };
+		5452275F1DFE9FD200127B6C /* WSPresentNextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSPresentNextViewController.h; path = ../WSPresentNextViewController.h; sourceTree = "<group>"; };
+		545227601DFE9FD200127B6C /* WSPresentNextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSPresentNextViewController.m; path = ../WSPresentNextViewController.m; sourceTree = "<group>"; };
+		545227621DFEA0FC00127B6C /* WSPresentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSPresentAnimation.h; path = ../WSPresentAnimation.h; sourceTree = "<group>"; };
+		545227631DFEA0FC00127B6C /* WSPresentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSPresentAnimation.m; path = ../WSPresentAnimation.m; sourceTree = "<group>"; };
 		548372391DFD2669008A7F09 /* WSBezierAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSBezierAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5483723D1DFD2669008A7F09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5483723F1DFD2669008A7F09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -35,6 +36,8 @@
 		5483724D1DFD2669008A7F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		548372531DFD282E008A7F09 /* WSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSButton.h; sourceTree = "<group>"; };
 		548372541DFD282E008A7F09 /* WSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSButton.m; sourceTree = "<group>"; };
+		54A7D0E21EADD9770036BCD2 /* WSPresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPresentViewController.h; sourceTree = "<group>"; };
+		54A7D0E31EADD9770036BCD2 /* WSPresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPresentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +54,6 @@
 		548372301DFD2669008A7F09 = {
 			isa = PBXGroup;
 			children = (
-				545227621DFEA0FC00127B6C /* WSPresentAnimation.h */,
-				545227631DFEA0FC00127B6C /* WSPresentAnimation.m */,
-				5452275F1DFE9FD200127B6C /* WSNextViewController.h */,
-				545227601DFE9FD200127B6C /* WSNextViewController.m */,
 				5483723B1DFD2669008A7F09 /* WSBezierAnimation */,
 				5483723A1DFD2669008A7F09 /* Products */,
 			);
@@ -71,6 +70,7 @@
 		5483723B1DFD2669008A7F09 /* WSBezierAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				54A7D0E11EADD8F50036BCD2 /* presentAni */,
 				5483723F1DFD2669008A7F09 /* AppDelegate.h */,
 				548372401DFD2669008A7F09 /* AppDelegate.m */,
 				548372421DFD2669008A7F09 /* ViewController.h */,
@@ -80,8 +80,6 @@
 				5483724A1DFD2669008A7F09 /* LaunchScreen.storyboard */,
 				5483724D1DFD2669008A7F09 /* Info.plist */,
 				5483723C1DFD2669008A7F09 /* Supporting Files */,
-				548372531DFD282E008A7F09 /* WSButton.h */,
-				548372541DFD282E008A7F09 /* WSButton.m */,
 			);
 			path = WSBezierAnimation;
 			sourceTree = "<group>";
@@ -92,6 +90,21 @@
 				5483723D1DFD2669008A7F09 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54A7D0E11EADD8F50036BCD2 /* presentAni */ = {
+			isa = PBXGroup;
+			children = (
+				545227621DFEA0FC00127B6C /* WSPresentAnimation.h */,
+				545227631DFEA0FC00127B6C /* WSPresentAnimation.m */,
+				5452275F1DFE9FD200127B6C /* WSPresentNextViewController.h */,
+				545227601DFE9FD200127B6C /* WSPresentNextViewController.m */,
+				54A7D0E21EADD9770036BCD2 /* WSPresentViewController.h */,
+				54A7D0E31EADD9770036BCD2 /* WSPresentViewController.m */,
+				548372531DFD282E008A7F09 /* WSButton.h */,
+				548372541DFD282E008A7F09 /* WSButton.m */,
+			);
+			name = presentAni;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,8 +182,9 @@
 				548372411DFD2669008A7F09 /* AppDelegate.m in Sources */,
 				5483723E1DFD2669008A7F09 /* main.m in Sources */,
 				548372551DFD282E008A7F09 /* WSButton.m in Sources */,
+				54A7D0E41EADD9770036BCD2 /* WSPresentViewController.m in Sources */,
 				545227641DFEA0FC00127B6C /* WSPresentAnimation.m in Sources */,
-				545227611DFE9FD200127B6C /* WSNextViewController.m in Sources */,
+				545227611DFE9FD200127B6C /* WSPresentNextViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

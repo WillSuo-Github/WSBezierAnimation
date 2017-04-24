@@ -6,15 +6,15 @@
 //  Copyright © 2016年 WS. All rights reserved.
 //
 
-#import "WSNextViewController.h"
+#import "WSPresentNextViewController.h"
 #import "WSPresentAnimation.h"
 
-@interface WSNextViewController ()<UIViewControllerTransitioningDelegate>
+@interface WSPresentNextViewController ()<UIViewControllerTransitioningDelegate>
 
 @property (nonatomic, strong) UIButton *myButton;
 @end
 
-@implementation WSNextViewController
+@implementation WSPresentNextViewController
 
 - (instancetype)init{
     if (self = [super init]) {
@@ -32,7 +32,7 @@
     self.view.backgroundColor = [UIColor purpleColor];
     
     _myButton = ({
-        UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 10, 10)];
+        UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
         btn.backgroundColor = [UIColor redColor];
         [btn addTarget:self action:@selector(dismissAction) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:btn];

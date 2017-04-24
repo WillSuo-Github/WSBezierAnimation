@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WSNextViewController : UIViewController
+@interface WSPresentNextViewController : UIViewController
 
 @end

@@ -7,49 +7,65 @@
 //
 
 #import "ViewController.h"
-#import "WSButton.h"
-#import "WSNextViewController.h"
+#import "WSPresentViewController.h"
 
-@interface ViewController ()
-@property (strong, nonatomic) WSButton *mybutton;
-@property (nonatomic, strong) WSNextViewController *nextVc;
+@interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
+
+@property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, copy) NSArray *sourceArr;
 @end
 
 @implementation ViewController
 
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self configSubViews];
-    
-}
-
-#pragma mark layout
-- (void)configSubViews{
-    self.view.backgroundColor = [UIColor orangeColor];
-    
-    __weak typeof(self) weakSelf = self;
-    _mybutton = ({
-        WSButton *btn = [[WSButton alloc] initWithFrame:CGRectMake(100, 100, 100, 40)];
-        [self.view addSubview:btn];
-        [btn setAddActionBlock:^{
-            WSNextViewController *nextVc = [[WSNextViewController alloc] init];
-            [self presentViewController:nextVc animated:true completion:nil];
-        }];
-        btn;
+    _tableView = ({
+        UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
+        [self.view addSubview:tableView];
+        [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+        tableView.delegate = self;
+        tableView.dataSource = self;
+        tableView;
     });
 }
 
-#pragma mark action
-- (void)myButtonDidChick{
-    
+
+#pragma mark -
+#pragma mark - UITableViewDelegate
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    NSLog(@"%@",_sourceArr[indexPath.row]);
+    switch (indexPath.row) {
+        case 0:
+            [self presentViewController:[[WSPresentViewController alloc] init] animated:true completion:nil];
+            break;
+            
+        default:
+            break;
+    }
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark -
+#pragma mark - UITableViewDataSource
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return self.sourceArr.count;
 }
 
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    cell.textLabel.text = _sourceArr[indexPath.row];
+    return cell;
+}
+
+#pragma mark -
+#pragma mark - lazy
+- (NSArray *)sourceArr{
+    if (!_sourceArr) {
+        _sourceArr = @[@"presentAni", @"1", @"2"];
+    }
+    return _sourceArr;
+}
 
 @end
+
+
+

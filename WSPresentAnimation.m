@@ -105,7 +105,9 @@
     basicMaskAni.delegate = self;
     basicMaskAni.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
     [maskLayer addAnimation:basicMaskAni forKey:@"basicMaskAni"];
-
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)([self transitionDuration:transitionContext] * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [transitionContext completeTransition:true];
+    });
 }
 
 

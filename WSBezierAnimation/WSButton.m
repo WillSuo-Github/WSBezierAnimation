@@ -167,12 +167,19 @@
     [self removeSubviews];
     if (self.addActionBlock) {
         self.addActionBlock();
+        [self performSelector:@selector(resetButton) withObject:nil afterDelay:0.5];
     }
 }
 
 
+- (void)resetButton{
+    [self.borderLayer removeAllAnimations];
+    self.myButton.hidden = false;
+}
+
 - (void)removeSubviews{
-    [self.myButton removeFromSuperview];
+//    [self.myButton removeFromSuperview];
+    self.myButton.hidden = true;
     [self.maskLayer removeFromSuperlayer];
     [self.chickCicrlerLayer removeFromSuperlayer];
     [self.loadingLayer removeFromSuperlayer];
