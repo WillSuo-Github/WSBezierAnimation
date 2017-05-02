@@ -241,7 +241,7 @@
     opacityAni.toValue = @(1);
     opacityAni.removedOnCompletion = false;
     opacityAni.fillMode = kCAFillModeForwards;
-    opacityAni.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn];
+    opacityAni.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
     [_textLayer addAnimation:opacityAni forKey:@"opacity"];
     
     
@@ -254,7 +254,7 @@
     fillColorAni.toValue = (__bridge id _Nullable)(MainColor.CGColor);
     fillColorAni.removedOnCompletion = false;
     fillColorAni.fillMode = kCAFillModeForwards;
-    fillColorAni.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn];
+    fillColorAni.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
     
     CABasicAnimation *scaleCycleAni = [CABasicAnimation animationWithKeyPath:@"path"];
     scaleCycleAni.duration = duration;
@@ -262,7 +262,7 @@
     scaleCycleAni.toValue = (__bridge id _Nullable)(_borderLayer.path);
     scaleCycleAni.removedOnCompletion = false;
     scaleCycleAni.fillMode = kCAFillModeForwards;
-    scaleCycleAni.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn];
+    scaleCycleAni.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
     
     CABasicAnimation *strokeColorAni = [CABasicAnimation animationWithKeyPath:@"strokeColor"];
     strokeColorAni.duration = duration;
@@ -270,7 +270,7 @@
     strokeColorAni.toValue = (__bridge id _Nullable)(MainColor.CGColor);
     strokeColorAni.removedOnCompletion = false;
     strokeColorAni.fillMode = kCAFillModeForwards;
-    strokeColorAni.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn];
+    strokeColorAni.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
     
     group.animations = @[fillColorAni, scaleCycleAni, strokeColorAni];
     group.duration = duration;

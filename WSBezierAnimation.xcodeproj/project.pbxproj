@@ -57,6 +57,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5426998E1EB74F2800954FB7 /* stackAni */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = stackAni;
+			sourceTree = "<group>";
+		};
 		548372301DFD2669008A7F09 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +83,7 @@
 		5483723B1DFD2669008A7F09 /* WSBezierAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				5426998E1EB74F2800954FB7 /* stackAni */,
 				54A7D0E51EADE2E30036BCD2 /* submitButtonAni */,
 				54A7D0E11EADD8F50036BCD2 /* presentAni */,
 				5483723F1DFD2669008A7F09 /* AppDelegate.h */,
