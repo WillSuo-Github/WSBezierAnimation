@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "WSPresentViewController.h"
 #import "WSSubmitButtonController.h"
+#import "StackBottonViewController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -42,6 +43,9 @@
         case 1:
             [self presentViewController:[[WSSubmitButtonController alloc] init] animated:true completion:nil];
             break;
+        case 2:
+            [self presentViewController:[[StackBottonViewController alloc] init] animated:true completion:nil];
+            break;
             
         default:
             break;
@@ -64,7 +68,7 @@
 #pragma mark - lazy
 - (NSArray *)sourceArr{
     if (!_sourceArr) {
-        _sourceArr = @[@"presentAni", @"SubmitButton", @"2"];
+        _sourceArr = @[@"presentAni", @"SubmitButton", @"stackAni"];
     }
     return _sourceArr;
 }

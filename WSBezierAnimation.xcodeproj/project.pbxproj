@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		166560FD0DF7830D9F8C9693 /* Pods_WSBezierAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CEB7E7B54207C7339E9DFBB /* Pods_WSBezierAnimation.framework */; };
+		5445AF691EBA13710024FF5C /* StackBottonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5445AF681EBA13710024FF5C /* StackBottonViewController.m */; };
+		5445AF6C1EBA1E2C0024FF5C /* StackCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5445AF6B1EBA1E2C0024FF5C /* StackCollectionCell.m */; };
+		5445AF6E1EBA276C0024FF5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5445AF6D1EBA276C0024FF5C /* Assets.xcassets */; };
 		545227611DFE9FD200127B6C /* WSPresentNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 545227601DFE9FD200127B6C /* WSPresentNextViewController.m */; };
 		545227641DFEA0FC00127B6C /* WSPresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 545227631DFEA0FC00127B6C /* WSPresentAnimation.m */; };
 		5483723E1DFD2669008A7F09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5483723D1DFD2669008A7F09 /* main.m */; };
 		548372411DFD2669008A7F09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 548372401DFD2669008A7F09 /* AppDelegate.m */; };
 		548372441DFD2669008A7F09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548372431DFD2669008A7F09 /* ViewController.m */; };
 		548372471DFD2669008A7F09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 548372451DFD2669008A7F09 /* Main.storyboard */; };
-		548372491DFD2669008A7F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 548372481DFD2669008A7F09 /* Assets.xcassets */; };
 		5483724C1DFD2669008A7F09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5483724A1DFD2669008A7F09 /* LaunchScreen.storyboard */; };
 		548372551DFD282E008A7F09 /* WSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 548372541DFD282E008A7F09 /* WSButton.m */; };
 		54A7D0E41EADD9770036BCD2 /* WSPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A7D0E31EADD9770036BCD2 /* WSPresentViewController.m */; };
@@ -22,6 +25,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5445AF671EBA13710024FF5C /* StackBottonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackBottonViewController.h; sourceTree = "<group>"; };
+		5445AF681EBA13710024FF5C /* StackBottonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackBottonViewController.m; sourceTree = "<group>"; };
+		5445AF6A1EBA1E2C0024FF5C /* StackCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackCollectionCell.h; sourceTree = "<group>"; };
+		5445AF6B1EBA1E2C0024FF5C /* StackCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackCollectionCell.m; sourceTree = "<group>"; };
+		5445AF6D1EBA276C0024FF5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5452275F1DFE9FD200127B6C /* WSPresentNextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSPresentNextViewController.h; path = ../WSPresentNextViewController.h; sourceTree = "<group>"; };
 		545227601DFE9FD200127B6C /* WSPresentNextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSPresentNextViewController.m; path = ../WSPresentNextViewController.m; sourceTree = "<group>"; };
 		545227621DFEA0FC00127B6C /* WSPresentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSPresentAnimation.h; path = ../WSPresentAnimation.h; sourceTree = "<group>"; };
@@ -33,7 +41,6 @@
 		548372421DFD2669008A7F09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		548372431DFD2669008A7F09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		548372461DFD2669008A7F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		548372481DFD2669008A7F09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5483724B1DFD2669008A7F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5483724D1DFD2669008A7F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		548372531DFD282E008A7F09 /* WSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSButton.h; sourceTree = "<group>"; };
@@ -44,6 +51,9 @@
 		54A7D0E71EADE3010036BCD2 /* WSSubmitButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSSubmitButtonController.m; sourceTree = "<group>"; };
 		54A7D0E91EADE4D30036BCD2 /* WSSubmitButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSSubmitButton.h; sourceTree = "<group>"; };
 		54A7D0EA1EADE4D30036BCD2 /* WSSubmitButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSSubmitButton.m; sourceTree = "<group>"; };
+		5514371B8EB4735EA7EF4C50 /* Pods-WSBezierAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSBezierAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-WSBezierAnimation/Pods-WSBezierAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		7B160C6EF0DE51363D7EFAF5 /* Pods-WSBezierAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSBezierAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WSBezierAnimation/Pods-WSBezierAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		8CEB7E7B54207C7339E9DFBB /* Pods_WSBezierAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WSBezierAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				166560FD0DF7830D9F8C9693 /* Pods_WSBezierAnimation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +71,10 @@
 		5426998E1EB74F2800954FB7 /* stackAni */ = {
 			isa = PBXGroup;
 			children = (
+				5445AF671EBA13710024FF5C /* StackBottonViewController.h */,
+				5445AF681EBA13710024FF5C /* StackBottonViewController.m */,
+				5445AF6A1EBA1E2C0024FF5C /* StackCollectionCell.h */,
+				5445AF6B1EBA1E2C0024FF5C /* StackCollectionCell.m */,
 			);
 			name = stackAni;
 			sourceTree = "<group>";
@@ -69,6 +84,8 @@
 			children = (
 				5483723B1DFD2669008A7F09 /* WSBezierAnimation */,
 				5483723A1DFD2669008A7F09 /* Products */,
+				DED650B9C7261A7D2EE494E9 /* Pods */,
+				C231138AAA8014F28229F62C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,8 +107,8 @@
 				548372401DFD2669008A7F09 /* AppDelegate.m */,
 				548372421DFD2669008A7F09 /* ViewController.h */,
 				548372431DFD2669008A7F09 /* ViewController.m */,
+				5445AF6D1EBA276C0024FF5C /* Assets.xcassets */,
 				548372451DFD2669008A7F09 /* Main.storyboard */,
-				548372481DFD2669008A7F09 /* Assets.xcassets */,
 				5483724A1DFD2669008A7F09 /* LaunchScreen.storyboard */,
 				5483724D1DFD2669008A7F09 /* Info.plist */,
 				5483723C1DFD2669008A7F09 /* Supporting Files */,
@@ -133,6 +150,23 @@
 			name = submitButtonAni;
 			sourceTree = "<group>";
 		};
+		C231138AAA8014F28229F62C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CEB7E7B54207C7339E9DFBB /* Pods_WSBezierAnimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DED650B9C7261A7D2EE494E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B160C6EF0DE51363D7EFAF5 /* Pods-WSBezierAnimation.debug.xcconfig */,
+				5514371B8EB4735EA7EF4C50 /* Pods-WSBezierAnimation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 548372501DFD2669008A7F09 /* Build configuration list for PBXNativeTarget "WSBezierAnimation" */;
 			buildPhases = (
+				49F8185705E9A2933834721F /* [CP] Check Pods Manifest.lock */,
 				548372351DFD2669008A7F09 /* Sources */,
 				548372361DFD2669008A7F09 /* Frameworks */,
 				548372371DFD2669008A7F09 /* Resources */,
+				FA22D51DD9409C43E5C30266 /* [CP] Embed Pods Frameworks */,
+				612107C37228ACAF0089BF80 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,12 +229,60 @@
 			buildActionMask = 2147483647;
 			files = (
 				5483724C1DFD2669008A7F09 /* LaunchScreen.storyboard in Resources */,
-				548372491DFD2669008A7F09 /* Assets.xcassets in Resources */,
+				5445AF6E1EBA276C0024FF5C /* Assets.xcassets in Resources */,
 				548372471DFD2669008A7F09 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49F8185705E9A2933834721F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		612107C37228ACAF0089BF80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WSBezierAnimation/Pods-WSBezierAnimation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA22D51DD9409C43E5C30266 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WSBezierAnimation/Pods-WSBezierAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		548372351DFD2669008A7F09 /* Sources */ = {
@@ -208,9 +293,11 @@
 				548372411DFD2669008A7F09 /* AppDelegate.m in Sources */,
 				54A7D0EB1EADE4D30036BCD2 /* WSSubmitButton.m in Sources */,
 				5483723E1DFD2669008A7F09 /* main.m in Sources */,
+				5445AF6C1EBA1E2C0024FF5C /* StackCollectionCell.m in Sources */,
 				54A7D0E81EADE3010036BCD2 /* WSSubmitButtonController.m in Sources */,
 				548372551DFD282E008A7F09 /* WSButton.m in Sources */,
 				54A7D0E41EADD9770036BCD2 /* WSPresentViewController.m in Sources */,
+				5445AF691EBA13710024FF5C /* StackBottonViewController.m in Sources */,
 				545227641DFEA0FC00127B6C /* WSPresentAnimation.m in Sources */,
 				545227611DFE9FD200127B6C /* WSPresentNextViewController.m in Sources */,
 			);
@@ -332,6 +419,7 @@
 		};
 		548372511DFD2669008A7F09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B160C6EF0DE51363D7EFAF5 /* Pods-WSBezierAnimation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WSBezierAnimation/Info.plist;
@@ -343,6 +431,7 @@
 		};
 		548372521DFD2669008A7F09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5514371B8EB4735EA7EF4C50 /* Pods-WSBezierAnimation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WSBezierAnimation/Info.plist;
